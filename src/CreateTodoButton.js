@@ -1,5 +1,8 @@
-function CreateTodoButton() {
-	return <h2>Create Button</h2>
+import React from 'react'
+import './CreateTodoButton.css'
+
+function CreateTodoButton(props) {
+	return <button className='CreateTodoButton'>+</button>
 }
 
 export { CreateTodoButton }
